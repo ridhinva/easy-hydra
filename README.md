@@ -1,9 +1,9 @@
-# easy-hydra
-#! /bin/bash
-git clone https://github.com/ridhinva/easy-hydra
+# Easy-Hydra
+## Installing Kali Linux:
 
-easy-hydra 
-
-chmod 777 my_hydra.sh 
-
-./my_hydra.sh 
+```
+git clone https://github.com/ridhinva/easy-hydra  
+cd easy-hydra 
+chmod 777 my_hydra.sh
+./my_hydra.sh
+```
