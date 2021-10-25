@@ -54,7 +54,7 @@ echo              version 1.0
 printf " \e[1;77m v1.0 coded by https://github.com/ridhinva/easy-hydra\e[0m \n"
 
 echo "hydra -t 5  -f -L $login -P $path $ip "
-hydra -t 5 -f -L -I $login -P $path $ip > $file.txt
+hydra -t 5 -f -L $login -P $path $ip > $file.txt
 clear 
 echo  ╔═╗╔═╗╔═╗╦ ╦  
 echo  ║╣ ╠═╣╚═╗╚╦╝  
